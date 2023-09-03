@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Tienda en línea</title>
+  <link rel="stylesheet" href="styles.css">
+  <!--Tipografia 1-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap" rel="stylesheet">
+  <!--Tipografia 2-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Space+Grotesk&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <header>
+    <h1>Bienvenidos a Mi Tienda en línea - UrbanTime</h1>
+  </header>
+
+  <nav>
+    <h1><a href="carrito.html">Iniciar compra</a></h1>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h2>Acerca de Nosotros</h2>
+      <p class="responsive-margin">Desde nuestros primeros días UrbanTime ha sido un símbolo de precisión, elegancia y lujo en relojería. Con una gama selecta que va desde los modelos más clásicos hasta las últimas innovaciones en tecnología de relojes, estamos comprometidos con la excelencia y la satisfacción del cliente. Esta tienda en línea es un proyecto creado por:</p>
+      <ul>
+        <li>Joseph Arón Cordón Enriquez</li>
+        <li>Carné: 0900-14-9751</li>
+      </ul>
+    </section>
+
+    <section id="products">
+      <h2>Nuestros Productos</h2>
+      <div class="productList" id="productList">
+            
+        <div class="product" draggable="true" data-name="Producto 1" data-price="200">
+            <img src="img/Reloj1.png" alt="Producto 1">
+            <div class="informacion">
+                <p>Rolex</p>
+                <p class="precio">Q. 200<span>.00</span></p>
+            </div>
+        </div>
+        
+        <div class="product" draggable="true" data-name="Producto 2" data-price="300">
+            <img src="img/Reloj2.png" alt="Producto 2">
+            <div class="informacion">
+                <p>Omega</p>
+                <p class="precio">Q. 300<span>.00</span></p>
+            </div>
+        </div>
+
+        <div class="product" draggable="true" data-name="Producto 3" data-price="500">
+            <img src="img/Reloj3.png" alt="Producto 3">
+            <div class="informacion">
+                <p>Hublot</p>
+                <p class="precio">Q. 500<span>.00</span></p>
+            </div>
+        </div>
+
+      </div>  
+    </section> 
+  </main>
+
+    <!-- Footer con video de YouTube -->
+    <footer class="footer">
+      <div class="video-container">
+
+        <iframe class="footer-video"
+        src="https://www.youtube.com/embed/aFbrTrllPjI?autoplay=1&mute=1&loop=1&playlist=aFbrTrllPjI" frameborder="0" allowfullscreen></iframe>
+      </div>
+
+  </footer>
+  <div>
+    <p>&copy; 2023 UrbanTime - Tienda en línea</p>
+  </div>
+</body>
+</html>
